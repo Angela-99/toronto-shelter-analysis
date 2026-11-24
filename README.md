@@ -86,7 +86,7 @@ Run the scripts in order from the project root directory:
 - Negative CV R² scores indicate the data has strong **temporal dependencies**
 - Standard regression is limited here - this data is better suited to time series modeling
 - **newly_identified** is the most important feature (importance = 0.298)
-- 6-month linear trend forecast projects **~10,600-10,700** actively homeless through Dec 2026
+- A 6-month linear trend extrapolation gave about 10,600-10,700, well above the latest actual of 8,957 (June 2026). It is illustrative only and should not be read as a forecast. For backtested forecasts, see [toronto-shelter-forecasting](https://github.com/Angela-99/toronto-shelter-forecasting)
 
 
 ## 📈 Visualizations
@@ -102,5 +102,5 @@ Run the scripts in order from the project root directory:
 | 7 | Chronic vs All | Chronic homelessness trend vs all population |
 | 8 | Actual vs Predicted | Model performance comparison |
 | 9 | Feature Importance | Random Forest feature ranking |
-| 10 | Forecast | Historical trend + 6-month projection |
+| 10 | Linear Extrapolation | Historical trend + 6-month linear extrapolation (illustrative only) |
 
